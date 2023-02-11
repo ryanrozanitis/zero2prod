@@ -64,6 +64,7 @@ jobs:
           override: true
 
       - name: Run cargo-tarpaulin
-        uses: actions-rs/tarpaulin@v0.22.0
+        uses: actions-rs/tarpaulin@v1
         with:
           args: '--ignore-tests'
+          version: 0.22.0
