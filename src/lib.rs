@@ -22,7 +22,8 @@ async fn health_check() -> impl Responder {
 }
 
 // Here, we explicitly mention the HttpResponse. There is no performance difference between the two
-async fn subscribe(_form: web::Form<FormData>) -> HttpResponse {
+async fn subscribe(form: web::Form<FormData>) -> HttpResponse {
+    format!("Hello {}!, {}!", &form.name, &form.email);
     HttpResponse::Ok().finish()
 }
 
