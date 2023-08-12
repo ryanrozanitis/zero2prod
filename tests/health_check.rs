@@ -82,7 +82,7 @@ async fn subscribe_returns_a_400_when_data_is_missing() {
             400,
             response.status().as_u16(),
             // Additional customized error message on test failure
-            "The AP did not fail with 400 Bad Request when the payload was {}.",
+            "The API did not fail with 400 Bad Request when the payload was {}.",
             error_message
         );
     }
