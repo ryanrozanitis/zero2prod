@@ -8,7 +8,6 @@
 
 use actix_web::{HttpResponse, Responder};
 
-
 // impl Responder is what we used at the start. As seen, it is not an explicit caller and will
 // assume the type in the response
 pub async fn health_check() -> impl Responder {

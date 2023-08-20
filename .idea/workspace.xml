@@ -17,12 +17,14 @@
   <component name="ChangeListManager">
     <list default="true" id="98e626af-181b-4c73-b29f-b3313f24596a" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/configuration.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/migrations/20230819232312_create_subscriptions_table.sql" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/configuration.rs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/routes/greet.rs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/routes/health_check.rs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/routes/mod.rs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/routes/subscriptions.rs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/startup.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
@@ -107,7 +109,7 @@
       <workItem from="1691874674458" duration="1946000" />
       <workItem from="1691877583843" duration="2874000" />
       <workItem from="1691881414965" duration="3319000" />
-      <workItem from="1692481938870" duration="5310000" />
+      <workItem from="1692481938870" duration="6557000" />
     </task>
     <servers />
   </component>

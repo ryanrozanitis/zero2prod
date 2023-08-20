@@ -13,6 +13,3 @@ pub async fn subscribe(form: web::Form<FormData>) -> HttpResponse {
     format!("Hello {}!, {}!", &form.name, &form.email);
     HttpResponse::Ok().finish()
 }
-
-
-
