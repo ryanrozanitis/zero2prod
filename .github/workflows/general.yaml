@@ -64,11 +64,8 @@ jobs:
       - name: Install postgresql-client
         run: sudo apt-get update && sudo apt-get install postgresql-client -y
 
-      - name: chmod +x .init_db.sh
-        run: chmod +x ./scripts/init_db.sh
-
       - name: Migrate database
-        run: SKIP_DOCKER=true ./scripts/init_db.sh
+        run: chmod +x ./scripts/init_db.sh && export SKIP_DOCKER=true && ./scripts/init_db.sh
 
       - name: Run tests
         run: cargo test
@@ -117,7 +114,7 @@ jobs:
       - name: Install postgresql-client
         run: sudo apt-get update && sudo apt-get install postgresql-client -y
       - name: Migrate database
-        run: SKIP_DOCKER=true ./scripts/init_db.sh
+        run: chmod +x ./scripts/init_db.sh && export SKIP_DOCKER=true && ./scripts/init_db.sh
       - name: Linting
         run: cargo clippy -- -D warnings
 
