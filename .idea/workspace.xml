@@ -16,9 +16,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98e626af-181b-4c73-b29f-b3313f24596a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/init_db.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configuration.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/configuration.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/greet.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/health_check.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/subscriptions.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/startup.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/health_check.rs" beforeDir="false" afterPath="$PROJECT_DIR$/tests/health_check.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +37,13 @@
   </component>
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Rust File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,6 +78,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ryanr\zero2prod" />
+      <recent name="C:\Users\ryanr\zero2prod\src" />
+      <recent name="C:\Users\ryanr\zero2prod\src\routes" />
+    </key>
+  </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$PROJECT_DIR$/../.cargo/bin" />
     <option name="version" value="2" />
@@ -83,7 +106,8 @@
       <workItem from="1690268599748" duration="5000" />
       <workItem from="1691874674458" duration="1946000" />
       <workItem from="1691877583843" duration="2874000" />
-      <workItem from="1691881414965" duration="2264000" />
+      <workItem from="1691881414965" duration="3319000" />
+      <workItem from="1692481938870" duration="5310000" />
     </task>
     <servers />
   </component>
