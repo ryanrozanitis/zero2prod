@@ -65,7 +65,7 @@ jobs:
         run: sudo apt-get update && sudo apt-get install postgresql-client -y
 
       - name: chmod +x .init_db.sh
-        run: chmod _x ./scripts/init_db.sh
+        run: chmod +x ./scripts/init_db.sh
 
       - name: Migrate database
         run: SKIP_DOCKER=true ./scripts/init_db.sh
